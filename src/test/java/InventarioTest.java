@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class InventarioTest {
     @Test
     void calcularSubtotalDeCuatroProductos() {
-        int resultado = inventario.calcularSubtotal(50, 4);
-        assertEquals(200, resultado);
+        int resultado = inventario.calcularSubtotal(64, 18);
+        assertEquals(46, resultado);
     }
     
 }
